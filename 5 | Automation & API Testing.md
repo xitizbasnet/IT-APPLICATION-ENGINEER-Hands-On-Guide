@@ -1,13 +1,17 @@
-# 🧪 LAB 5 | Automation & API Testing
+# 🧪 5 | Automation & API Testing
 
 ---
 
 ## 🎯 Lab Objective
 
 • Use Selenium to automate repetitive UI testing and regression activities.
+
 • Work with API requests (GET, POST, PUT, DELETE) for application testing.
+
 • Understand IP addresses and ports for effective network troubleshooting.
+
 • Use Browserstack for cross-browser testing of web applications.
+
 
 ---
 
@@ -209,24 +213,20 @@ Memorize these standard application ports:
 | 21   | FTP              | 2181  | Zookeeper        |
 | 389  | LDAP             | 9092  | Kafka            |
 
----
 
-```
-IT APPLICATION ENGINEER — Hands-On Lab Guide Application Deployment | Support | Security | Databases | Automation
-IT Application Engineer Lab Guide | Confidential Page 20
-```
 
 ---
 
 # ⚡ BEST PRACTICE TIPS
 
-H BEST PRACTICE TIPS
+* BEST PRACTICE TIPS
 
-4 Use explicit waits in Selenium (WebDriverWait) instead of time.sleep() for reliable tests.
-4 Maintain a Postman/Insomnia collection for all application API endpoints — share with team.
-4 Always test APIs with invalid inputs to ensure proper error handling (400/401/403).
-4 Use environment variables for API tokens/secrets — never hardcode credentials in scripts.
-4 Document all automation test results with timestamps and attach to deployment tickets.
-4 For Browserstack, test on the browser/OS combinations used by your actual end users.
-4 Run port checks (nc -zv) after every firewall change to confirm connectivity is intact.
-4 Label automation test scripts by sprint/version — this helps trace regressions quickly.
+* Use explicit waits in Selenium (`WebDriverWait`) instead of `time.sleep()` for reliable tests.
+* Maintain a Postman/Insomnia collection for all application API endpoints and share it with the team.
+* Always test APIs with invalid inputs to ensure proper error handling (400/401/403).
+* Use environment variables for API tokens and secrets; never hardcode credentials in scripts.
+* Document all automation test results with timestamps and attach them to deployment tickets.
+* For BrowserStack, test on the browser/OS combinations used by your actual end users.
+* Run port checks (`nc -zv`) after every firewall change to confirm connectivity is intact.
+* Label automation test scripts by sprint/version to help trace regressions quickly.
+
