@@ -1,4 +1,4 @@
-# 🧭 LAB 6 | Coordination & Change Management
+# 🧭 6 | Coordination & Change Management
 
 ---
 
@@ -189,12 +189,13 @@ RCA must be completed within 24–48 hours of every P1/P2 incident:
 
 # ⚡ BEST PRACTICE TIPS
 
-H BEST PRACTICE TIPS
+**BEST PRACTICE TIPS**
 
-4 Never deploy directly to PROD — always follow: DEV → UAT (signoff) → PROD with a CR.
-4 All Change Requests must have rollback plans documented before CAB approval.
-4 Send pre-maintenance communication at least 48 hours in advance to all stakeholders.
-4 Run smoke tests on 5 critical business flows within 30 minutes of every PROD deployment.
-4 Complete RCA documentation within 24 hours of every P1 incident — no exceptions.
-4 Keep a deployment runbook with exact commands in order — tested on UAT before PROD.
-4 Always confirm with the business owner before closing any incident ticket.
+* Never deploy directly to PROD—always follow: **DEV → UAT (signoff) → PROD** with a Change Request (CR).
+* All Change Requests must have documented rollback plans before CAB approval.
+* Send pre-maintenance communication at least 48 hours in advance to all stakeholders.
+* Run smoke tests on five critical business flows within 30 minutes of every PROD deployment.
+* Complete RCA documentation within 24 hours of every P1 incident.
+* Keep a deployment runbook with exact commands in order, and test it on UAT before PROD.
+* Always confirm with the business owner before closing any incident ticket.
+
