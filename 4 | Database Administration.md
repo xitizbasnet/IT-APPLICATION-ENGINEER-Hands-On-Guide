@@ -1,4 +1,4 @@
-# 📘 LAB 4 | Database Administration
+# 📘 4 | Database Administration
 
 ---
 
