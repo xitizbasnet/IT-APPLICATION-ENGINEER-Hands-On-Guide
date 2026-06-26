@@ -1,4 +1,4 @@
-# 📘 LAB 1 | Application Deployment & Management
+# 📘 1 | Application Deployment & Management
 
 ---
 
