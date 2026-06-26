@@ -173,17 +173,17 @@ IT Application Support Team
 
 RCA must be completed within 24–48 hours of every P1/P2 incident:
 
-| RCA Section          | Content                                                        |                         |                 |
-| -------------------- | -------------------------------------------------------------- | ----------------------- | --------------- |
-| Incident Summary     | MyApp login page unavailable — 2h 15min on Jan 20, 2024        |                         |                 |
-| Timeline             | 10:00 AM: Alert fired                                          | 10:05: Engineer engaged | 12:15: Resolved |
-| Root Cause           | Database connection pool exhausted due to unclosed connections |                         |                 |
-| Contributing Factors | Connection timeout config missing from app.properties          |                         |                 |
-| Impact               | 250 users affected, 2 failed transactions (recoverable)        |                         |                 |
-| Immediate Fix        | Restarted app server, increased pool size from 10 to 50        |                         |                 |
-| Permanent Fix        | Added connection timeout config, PR reviewed and deployed      |                         |                 |
-| Preventive Actions   | Added DB connection pool monitoring alert in Prometheus        |                         |                 |
-| Owner / Due Date     | Vinod Muleva                                                   | Feb 1, 2024             |                 |
+| RCA Section          | Content                                                        |                   
+| -------------------- | -------------------------------------------------------------- | 
+| Incident Summary     | MyApp login page unavailable — 2h 15min on Jan 20, 2024        |                    
+| Timeline             | 10:00 AM: Alert fired, 10:05: Engineer engaged, 12:15: Resolved|  
+| Root Cause           | Database connection pool exhausted due to unclosed connections |                        
+| Contributing Factors | Connection timeout config missing from app.properties          |                        
+| Impact               | 250 users affected, 2 failed transactions (recoverable)        |                     
+| Immediate Fix        | Restarted app server, increased pool size from 10 to 50        |                        
+| Permanent Fix        | Added connection timeout config, PR reviewed and deployed      |                        
+| Preventive Actions   | Added DB connection pool monitoring alert in Prometheus        |                     
+| Owner / Due Date     | Vinod Muleva, Feb 1, 2024                                                   
 
 ---
 
