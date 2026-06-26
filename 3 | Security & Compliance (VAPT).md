@@ -1,4 +1,4 @@
-# 📘 LAB 3 | Security & Compliance (VAPT)
+# 📘 3 | Security & Compliance (VAPT)
 
 ---
 
