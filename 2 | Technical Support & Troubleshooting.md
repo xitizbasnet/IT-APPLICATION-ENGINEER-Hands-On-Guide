@@ -1,4 +1,4 @@
-# 📘 LAB 2 | Technical Support & Troubleshooting
+# 📘 2 | Technical Support & Troubleshooting
 
 ---
 
